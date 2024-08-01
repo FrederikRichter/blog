@@ -1,5 +1,5 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
+baseURL = 'https://frederikrichter.github.io/blog/'
+languageCode = 'en'
 title = 'My Blog'
 copyright = "© 2024 Frederik Richter"
 DefaultContentLanguage = "en"
