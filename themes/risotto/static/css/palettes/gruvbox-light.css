@@ -2,22 +2,21 @@
  * https://github.com/morhetz/gruvbox
  * base16: https://github.com/dawikur/base16-gruvbox-scheme
  */
-
 :root {
-    --base00: #eef58e;  /* background */
-    --base01: #948e48;  /* white */
-    --base02: #75a738;  /* cyan */
-    --base03: #8868b3;  /* magenta */
-    --base04: #477ca1;  /* blue */
-    --base05: #5f5b17;  /* foreground */
-    --base06: #6c6823;  /* black (bright) */
-    --base07: #201602;  /* black */
-    --base08: #c35359;  /* red */
-    --base09: #c35359;  /* red (bright) */
-    --base0A: #a88339;  /* yellow */
-    --base0B: #18974e;  /* green */
-    --base0C: #75a738;  /* cyan (bright) */
-    --base0D: #477ca1;  /* blue (bright) */
-    --base0E: #8868b3;  /* magenta (bright) */
-    --base0F: #c35359;  /* red (bright) */
+    --base00: #fbf1c7;  /* background */
+    --base01: #ebdbb2;  /* light background */
+    --base02: #d5c4a1;  /* lighter background */
+    --base03: #bdae93;  /* light foreground */
+    --base04: #665c54;  /* medium foreground */
+    --base05: #504945;  /* foreground */
+    --base06: #3c3836;  /* dark foreground */
+    --base07: #282828;  /* very dark foreground */
+    --base08: #9d0006;  /* red */
+    --base09: #af3a03;  /* orange */
+    --base0A: #b57614;  /* yellow */
+    --base0B: #79740e;  /* green */
+    --base0C: #427b58;  /* aqua/cyan */
+    --base0D: #076678;  /* blue */
+    --base0E: #8f3f71;  /* purple */
+    --base0F: #d65d0e;  /* brown */
 }
