@@ -1,0 +1,23 @@
+/* gruvbox light
+ * https://github.com/morhetz/gruvbox
+ * base16: https://github.com/dawikur/base16-gruvbox-scheme
+ */
+
+:root {
+    --base00: #eef58e;  /* background */
+    --base01: #948e48;  /* white */
+    --base02: #75a738;  /* cyan */
+    --base03: #8868b3;  /* magenta */
+    --base04: #477ca1;  /* blue */
+    --base05: #5f5b17;  /* foreground */
+    --base06: #6c6823;  /* black (bright) */
+    --base07: #201602;  /* black */
+    --base08: #c35359;  /* red */
+    --base09: #c35359;  /* red (bright) */
+    --base0A: #a88339;  /* yellow */
+    --base0B: #18974e;  /* green */
+    --base0C: #75a738;  /* cyan (bright) */
+    --base0D: #477ca1;  /* blue (bright) */
+    --base0E: #8868b3;  /* magenta (bright) */
+    --base0F: #c35359;  /* red (bright) */
+}

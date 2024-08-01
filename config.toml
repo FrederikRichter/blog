@@ -1,0 +1,72 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My Blog'
+copyright = "© 2024 Frederik Richter"
+
+theme = 'risotto'
+enableInlineShortcodes = true
+
+sectionPagesMenu = "main"
+
+# Sidebar: about/bio
+[params]
+noindex = false
+
+[params.theme]
+palette = "gruvbox-light"
+
+[params.about]
+title = "Frederik Richter"
+description = "Contacts below:"
+
+[[params.socialLinks]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/FrederikRichter"
+
+[[params.socialLinks]]
+icon = "fas fa-envelope"
+title = "Email"
+url = "mailto:Frederik.Richter@mailbox.org"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+# For hugo >= 0.60.0, enable inline HTML
+[markup.goldmark.renderer]
+unsafe = true
+
+[privacy]
+
+[privacy.disqus]
+disable = true
+
+[privacy.googleAnalytics]
+disable = true
+respectDoNotTrack = false
+
+[privacy.instagram]
+disable = true
+simple = false
+
+[privacy.twitter]
+disable = true
+enableDNT = false
+simple = false
+
+[privacy.vimeo]
+disable = true
+enableDNT = false
+simple = false
+
+[privacy.youtube]
+disable = false
+privacyEnhanced = true
