@@ -2,6 +2,7 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My Blog'
 copyright = "© 2024 Frederik Richter"
+DefaultContentLanguage = "en"
 
 theme = 'risotto'
 enableInlineShortcodes = true
