@@ -2,29 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My Blog</title>
-    <link>http://example.org/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content on My Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <generator>Hugo</generator>
+    <language>en-US</language>
     <copyright>© 2024 Frederik Richter</copyright>
-    <lastBuildDate>Thu, 01 Aug 2024 20:24:51 +0200</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Oct 2024 17:21:18 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nokia6600i Hard Reset without Passcode</title>
+      <link>http://localhost:1313/blog/posts/nokia6600i_hard_reset/</link>
+      <pubDate>Sat, 05 Oct 2024 17:21:18 +0200</pubDate>
+      <guid>http://localhost:1313/blog/posts/nokia6600i_hard_reset/</guid>
+      <description>How to reset Nokio 6600i slide (RM570) I recently had to factory reset a nokia slide 6600i and did not have access to the passcode. The default codes 0000 00000 1234 12345 123456 all didnt work. Since there are only shady flash tools only available for windows and i didnt find non russian firmware to flash i dug deeper.&#xA;How-To Power off device Remove Battery Hold PowerButton (Red Call Decline Button) for 10 seconds Power On device and do not input anything after holding the Power Button to startup the device Wait 10-15 minutes The code should be 12345 now How this works?</description>
+    </item>
     <item>
       <title>About</title>
-      <link>http://example.org/about/</link>
+      <link>http://localhost:1313/blog/about/</link>
       <pubDate>Thu, 01 Aug 2024 20:22:44 +0200</pubDate>
-      
-      <guid>http://example.org/about/</guid>
+      <guid>http://localhost:1313/blog/about/</guid>
       <description>Hi! My name is Frederik Richter and this is my blog of things i came across that are worthy to share in my opinion. Most of it will be about computerscience related stuff and math but will feature a lot of random stuff aswell. Happy reading!</description>
     </item>
-    
     <item>
       <title>Hello</title>
-      <link>http://example.org/posts/hello/</link>
+      <link>http://localhost:1313/blog/posts/hello/</link>
       <pubDate>Thu, 01 Aug 2024 20:07:34 +0200</pubDate>
-      
-      <guid>http://example.org/posts/hello/</guid>
+      <guid>http://localhost:1313/blog/posts/hello/</guid>
       <description>This is a test</description>
     </item>
-    
   </channel>
 </rss>
